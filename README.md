@@ -4,7 +4,7 @@
 Autoregressive models infer the time relation in a time series by studying the relation between the past data (also colled **lags**) and the data at a certain time **horizon** in the future
 
 
- *f(y<sub>t-1</sub>, ... ,y<sub>t-d</sub>) = y<sub>t</sub>*
+ *f(y<sub>t-1</sub>, ... ,y<sub>t-d</sub>) = y<sub>t</sub> .*
 
 Here *f* denotes the learned relation which depends on the machine learning estimator used to train the autoregresive model.
 
